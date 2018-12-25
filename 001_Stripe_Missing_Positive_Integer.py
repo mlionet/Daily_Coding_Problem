@@ -35,9 +35,13 @@ def missing_integer(array) :
         if min == element : min += 1
     return min
 
-if __name__ == '__main__' : 
+##----TEST ZONE----##
+
+if __name__ == '__main__' :
+    #INTERVIEW TEST
     print(missing_integer([3, 4, -1, 1])) #should give 2
     print(missing_integer([1, 2, 0])) #should give 3
+    #MY TEST
     print(missing_integer([2, 3, 7, 6, 8, -1, -10, 15])) #should give 1
     print(missing_integer([2, 3, -7, 6, 8, 1, -10, 15])) #should give 4
     print(missing_integer([1, 1, 0, -1, -2])) #should give 2
