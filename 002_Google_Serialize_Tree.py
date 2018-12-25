@@ -31,7 +31,7 @@ def serialize(node) :
         string += "}"
     return string
 
-#Returns the left child and right child of the node
+#Returns the serialized left child and right child of the node
 def split_right_left(string):
     count = 0
     i = 0
