@@ -1,4 +1,4 @@
-# Daily Coding Problem
+# Daily Coding Problem 🐍
 ### Interview problems solved in Python !
 
 #### 001 - This problem was asked by Stripe
