@@ -37,3 +37,9 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 >Given a list of numbers and a number k, return whether any two numbers from the list add up to k.  
 >For example, given ```[10, 15, 3, 7]``` and k of 17, return true since 10 + 7 is 17.  
 >Bonus: Can you do this in one pass?  
+
+#### 005 - This problem was asked by Facebook
+>This problem was asked by Facebook.  
+>Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.  
+>For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.  
+>You can assume that the messages are decodable. For example, '001' is not allowed.  
