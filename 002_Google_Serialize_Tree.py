@@ -18,7 +18,6 @@ class Node:
         self.right = right
 
 #How i serialize : "root:{left:{left.left,left.right},right:{right.left, right.right}}"
-
 def serialize(node) :
     string = node.val
     if (node.left or node.right) :
@@ -44,6 +43,7 @@ def split_right_left(string):
         i += 1
     return left, right
 
+#Returns the node created from a serialized string
 def deserialize(string) :
     if len(string) == 0 : return None
     split = string.split(':', 1)
