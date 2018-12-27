@@ -19,6 +19,8 @@ class Node:
 
 #How i serialize : "root:{left:{left.left,left.right},right:{right.left, right.right}}"
 def serialize(node) :
+    if (node == None) :
+        return ""
     string = node.val
     if (node.left or node.right) :
         string += ":{"
