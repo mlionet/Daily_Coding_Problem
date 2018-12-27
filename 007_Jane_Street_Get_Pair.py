@@ -13,15 +13,15 @@ def cons(a, b) :
         return f(a, b)
     return pair
 
-def car(f) :
+def car(pair) :
     def right(a, b) :
         return a
-    return f(right)
+    return pair(right)
 
-def cdr(f) :
+def cdr(pair) :
     def left(a, b) :
         return b
-    return f(left)
+    return pair(left)
 
 ##----TEST ZONE----##
 
