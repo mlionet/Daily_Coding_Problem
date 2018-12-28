@@ -23,3 +23,4 @@ if __name__ == "__main__" :
     print(largest_sum([10, 10, 10]))#should give 20
     print(largest_sum([1, 1, 0, -1]))#should give 1
     print(largest_sum([10,0,0,9,10]))#should give 20
+    print(largest_sum([2]))#should give 1
